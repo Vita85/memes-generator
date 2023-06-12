@@ -10,7 +10,10 @@ function App() {
       .then((data) => setMemes(data.data.memes));
   });
 
-  // const randomImage = Math.floor(Math.random(setMemes) * 99);
+  //function randomImage () {
+  //  const memeImage = Math.floor(Math.random(setMemes) * 99);
+  //}
+  // 
   // useEffect(() => {
   //   setMemes(randomImage)
   // }, [])
