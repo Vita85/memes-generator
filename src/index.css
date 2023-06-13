@@ -8,6 +8,7 @@
 .wrapper {
   width: 500px;
   height: 500px;
+  margin: 0 auto;
 }
 header {
   height: 65px;
@@ -85,16 +86,28 @@ input:hover{
   height: 20px;
   margin-left: 5px;
 }
-.image > img{
-width: 300px;
-
+.image-container {
+  position: relative;
+  margin-top: 36px;
 }
-.image > p {
+.image-container > img{
+width: 100%;
+}
+.image-container > p{
   font-family: "Lilita One", cursive;
   font-style: normal;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 36px;
   line-height: 39px;
   color: #ffffff;
-  /* border: 2px solid #000000; */
+  position: absolute;
+  left: 125px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #7e7e7e;
+}
+.top{
+  top: 16px;
+} 
+.bottom{
+  bottom: 16px;
 }
