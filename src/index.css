@@ -89,6 +89,8 @@ input:hover{
 .image-container {
   position: relative;
   margin-top: 36px;
+  display: flex;
+  justify-content: center;
 }
 .image-container > img{
 width: 100%;
